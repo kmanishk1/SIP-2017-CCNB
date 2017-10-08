@@ -1,0 +1,329 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+
+}
+html {
+  overflow-y: scroll;
+}
+body {
+  background: #d4cfcb;
+  font-family: 'Titillium Web', sans-serif;
+}
+li a, a {
+  text-decoration: none;
+  color: aliceblue;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+li a:hover, a:hover {
+  color: #858585;
+}
+.image {
+  position: relative;
+}
+.image h1 {
+  font-family: "American Typewriter", sans-serif;
+  font-size: 54px;
+  color: lightslategray;
+  font-weight: bold;
+  position: absolute;
+  top: 1px;
+  padding: 10%;
+  width: 100%;
+}
+.form {
+  background: rgba(19, 35, 47, .8);
+  text-align: center;
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.form:hover {
+  color: dimgray;
+}
+.form1 {
+  background: rgba(19, 35, 47, .8);
+  text-align: center;
+  padding: 10px;
+  max-width: 200px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+}
+.form1:hover {
+  color: dimgray;
+}
+.form2 {
+   background: rgba(19, 35, 47, .8);
+   color: white;
+   text-align: center;
+   padding: 40px;
+   max-width: 1000px;
+   margin: 40px auto;
+   border-radius: 4px;
+   box-shadow: 0 4px 10px 4px rgba(19, 35, 47, 0.3);
+ }
+.form2:hover {
+  color: dimgray;
+}
+.division {
+  margin: 20px auto;
+  text-align: center;
+  padding: 20px;
+  background-color: #cdced0;
+}
+#head {
+  text-align: center;
+  color: white;
+}
+#head:hover {
+  color: #cdced0;
+}
+.heading {
+  color: white;
+  text-align: center;
+}
+.heading:hover {
+  color: #cdced0;
+}
+#link:hover {
+  text-decoration: none;
+  color: darkgray;
+}
+#link:active {
+  text-decoration: none;
+  color: darkgray;
+}
+.tab-group {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 25.0px 0;
+}
+.tab-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.tab-group li a {
+  display: block;
+  text-decoration: none;
+  padding: 15px;
+  background: rgba(160, 179, 176, 0.25);
+  color: #003d33;
+  font-size: 20px;
+  float: left;
+  width: auto;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+}
+.tab-group li a:hover {
+  background: grey;
+  color: #ffffff;
+}
+.tab-group .active a {
+  background: grey;
+  color: #ffffff;
+}
+h1 {
+  text-align: center;
+  color: #ffffff;
+  font-weight: 300;
+  margin: 0 0 10px;
+}
+.form .form-control {
+  position: relative;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+input, textarea {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  color: #ffffff;
+  border-radius: 0;
+  -webkit-transition: border-color .25s ease, box-shadow .25s ease;
+  transition: border-color .25s ease, box-shadow .25s ease;
+}
+input:focus, textarea:focus {
+  outline: 0;
+  border-color: grey;
+}
+textarea {
+  border: 2px solid #a0b3b0;
+  resize: vertical;
+}
+.field-wrap {
+  position: relative;
+  margin-bottom: 40px;
+}
+.top-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.top-row > div {
+  float: left;
+  width: 48%;
+  margin-right: 4%;
+}
+.top-row > div:last-child {
+  margin: 0;
+}
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 0px;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  background: grey;
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  -webkit-appearance: none;
+}
+.button:hover, .button:focus {
+  background: grey;
+}
+.button-block {
+  display: block;
+  width: 100%;
+}
+.button-block2 {
+  display: block;
+  width: 50%;
+  /* float: left;*/
+}
+.forgot {
+  margin-top: -20px;
+  text-align: right;
+}
+.adj {
+  list-style: none;
+  padding: 0;
+}
+.allclubs {
+  margin: 10px;
+  padding: 5px;
+}
+.single {
+  border: inset;
+  border-radius: 4px;
+  text-align: center;
+  padding: 5px;
+  margin: 10px;
+  max-width: 400px;
+}
+.single a {
+  text-decoration: none;
+}
+.single a:hover {
+  text-decoration: none;
+}
+.singleanother {
+  text-align: center;
+  position: inherit;
+}
+.contacts {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.contacts ul li {
+  list-style: none;
+  display: inline-block;
+}
+.singlecontact h3 a {
+  color: #cdced0;
+}
+.singlecontact h3 a:hover {
+  color: #333333;
+  text-decoration: none;
+}
+.contacts h2 {
+  font-weight: bold;
+  color: whitesmoke;
+}
+.contacts ul li h3, h4 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.columns {
+  border: ridge;
+  border-radius: 10px;
+  background: rgba(19, 35, 47, .8);
+  text-align: center;
+  margin-bottom: 10px;
+}
+.singlecontact {
+  padding: 10px;
+  text-align: center;
+}
+.contactlinks li a {
+  text-align: center;
+}
+#footer {
+  background: rgba(19, 35, 47, .8);
+  padding: 6em 0em 4em;
+  margin: 10px;
+}
+#footer h2, #footer h3, #footer h4 {
+  color: #ffffff;
+}
+#footer p, #footer a, #footer li {
+  color: #cdced0;
+}
+#footer .rights {
+  padding-bottom: 1em;
+  margin: 4em;
+}
+#footer .copyright p {
+  color: darkgray;
+  display: inline-block;
+  list-style: none;
+  font-size: 20px;
+}
+#footer .copyright p a {
+  color: aliceblue;
+  text-decoration: none;
+  font-weight: bolder;
+
+}
+#footer .copyright a:hover {
+  color: #858585;
+  text-decoration: none;
+}
+#footer .links li {
+  list-style: none;
+  display: inline-block;
+}
+#footer .links li a {
+  text-decoration: none;
+  color: white;
+  margin: 2px;
+}
+#footer .links li a:hover {
+  text-decoration: none;
+  color: grey;
+}
+#footer .clubs li {
+  text-decoration: none;
+  margin-left: auto;
+  list-style: none;
+}
+#footer .clubs li a:hover {
+  color: aliceblue;
+  text-decoration: none;
+}
